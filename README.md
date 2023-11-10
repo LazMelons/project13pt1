@@ -1,2 +1,2 @@
-# project13pt1
-first part of project 13
+2703. Return Length of Arguments Passed
+Write a function argumentsLength that returns the count of arguments passed to it.
