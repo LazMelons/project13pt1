@@ -1,11 +1,15 @@
 /**
- * @param {...(null|boolean|number|string|Array|Object)} args
- * @return {number}
+ * @return {null|boolean|number|string|Array|Object}
  */
-var argumentsLength = function(...args) {
- return args.length
+Array.prototype.last = function() {
+  if (this.length === 0) {
+    return -1;
+  } else {
+    return this[this.length - 1];
+  }
 };
 
 /**
- * argumentsLength(1, 2, 3); // 3
+ * const arr = [1, 2, 3];
+ * arr.last(); // 3
  */
